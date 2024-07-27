@@ -16,6 +16,12 @@
 <br>
 <br>
 
+<p align="center"><img src="./result.png" width="90%" height="90%"></p>
+<div align=center>&lt;Performance comparison of KGAT and KGAT with Text Embedding including data sparsity situation&gt;</div>
+<br>
+<br>
+<br>
+
 ## Run the Code
 ### nlp.py
     --nlp : 텍스트 처리 기법 선택 (keyword / similarity / embedding)
@@ -34,7 +40,7 @@
     --data_name : 모델 학습에 사용할 데이터
     --use_embedding : Knowledge Graph의 Entity에 텍스트 임베딩 추가 여부 (0 or 1)
     --n_user : 모델 학습에 사용할 데이터 내의 user 수
-    --data_size : data sparsity 상황
+    --data_size : data sparsity 상황 설정
         - normal : 선호하는 아이템이 10개 이상인 모든 user
         - big : 선호하는 아이템이 30개 이상인 user만 추출
         - small : 선호하는 아이템이 30개 미만인 user만 추출
